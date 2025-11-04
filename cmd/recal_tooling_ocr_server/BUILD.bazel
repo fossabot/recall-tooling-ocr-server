@@ -1,0 +1,8 @@
+load("@rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "recal_tooling_ocr_server",
+    srcs = ["main.go"],
+    importpath = "github.com/karafrorg-recall/recall-tooling-ocr-server/cmd/recal_tooling_ocr_server",
+    visibility = ["//visibility:public"],
+)
